@@ -1,3 +1,4 @@
+import nexaLogo from '/assets/cnc/nexa_logo_horizontal_flat_white.svg';
 import React from 'react';
 import { Info, Check } from "lucide-react";
 import PageFooter from "../../molecules/PageFooter";
@@ -19,9 +20,9 @@ export default function Page1({ clientName, cpf, currentPerson, highlight, tipoP
         <div className="bg-slate-950 text-white rounded-none -mx-8 -mt-8 md:-mx-12 md:-mt-12 print:-mx-10 print:-mt-10 px-8 py-6 md:px-12 md:py-8 print:px-10 print:py-8 mb-6 relative overflow-hidden border-b border-slate-900 shadow-lg">
           <div className="flex justify-between items-center relative z-10">
             <div>
-              <div className="flex items-center gap-2 mb-2.5">
+              <div className="flex items-center gap-2 mb-5">
                 <img 
-                  src="/cnc_horiz_flat_white_640px_transp.png" 
+                  src={nexaLogo}
                   alt="CNC Logo" 
                   className="h-6 object-contain" 
                   referrerPolicy="no-referrer"
