@@ -1,0 +1,6 @@
+{
+  "name": "Relatório de Perícia de Crédito",
+  "description": "Relatório profissional de perícia de crédito em formato A4 com design moderno inspirado na Nexa AI e função de exportação para PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
